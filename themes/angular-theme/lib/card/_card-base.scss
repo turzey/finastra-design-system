@@ -1,5 +1,5 @@
-@import '~@angular/material/theming';
-@import '../core/style/spacing';
+@import "@angular/material/theming";
+@import "../core/style/spacing";
 
 $mat-card-padding: $uxg-spacing-3;
 
@@ -22,9 +22,11 @@ $mat-card-padding: $uxg-spacing-3;
 }
 
 @mixin uxg-card-size($width, $height: false) {
-  width: $width - ( $mat-card-padding * 2 );
+  width: $width - ($mat-card-padding * 2);
 
-  @if $height { height: $height - ( $mat-card-padding * 2 ); }
+  @if $height {
+    height: $height - ($mat-card-padding * 2);
+  }
 }
 
 .mat-card {
@@ -88,7 +90,7 @@ $mat-card-padding: $uxg-spacing-3;
 
   text-align: center;
 
-  &:not([class*='mat-elevation-z']) {
+  &:not([class*="mat-elevation-z"]) {
     @include mat-elevation(4);
   }
 
