@@ -3,7 +3,7 @@
   "dest": "../../dist/libs/angular-components",
   "lib": {
     "entryFile": "index.ts",
-    "styleIncludePaths": ["../../themes"]
+    "styleIncludePaths": ["../../themes", "node_modules"]
   },
   "whitelistedNonPeerDependencies": ["@ffdc/uxg-angular-theme"]
 }
